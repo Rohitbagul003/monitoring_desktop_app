@@ -175,7 +175,7 @@ class _TimerScreenState extends State<TimerScreen> with Utility {
   Widget build(BuildContext context) {
     return CupertinoPageScaffold(
       navigationBar: const CupertinoNavigationBar(
-        middle: Text('Timer App'),
+        middle: Text('Monitoring App'),
       ),
       child: ValueListenableBuilder<bool>(
         valueListenable: _loadingCamera,
